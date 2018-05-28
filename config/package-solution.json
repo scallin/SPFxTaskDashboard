@@ -1,0 +1,11 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-task-dashboard-client-side-solution",
+    "id": "41f3a237-1a6d-4e68-96b5-ba9e541e2d11",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-task-dashboard.sppkg"
+  }
+}

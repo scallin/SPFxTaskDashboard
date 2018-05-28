@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/taskDashboard/TaskDashboardWebPart.js",
+      "manifest": "./src/webparts/taskDashboard/TaskDashboardWebPart.manifest.json",
+      "outputPath": "./dist/task-dashboard-web-part.js"
+    }
+  ],
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-1.12.4.js",
+      "globalName": "jQuery"
+    }
+  },
+  "localizedResources": {
+    "TaskDashboardWebPartStrings": "webparts/taskDashboard/loc/{locale}.js"
+  }
+}
