@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "sp-fx-task-dashboard",
+    "libraryId": "41f3a237-1a6d-4e68-96b5-ba9e541e2d11",
+    "environment": "onprem"
+  }
+}
