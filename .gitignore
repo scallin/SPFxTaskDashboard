@@ -30,3 +30,5 @@ obj
 
 # Styles Generated Code
 *.scss.ts
+typings/tsd.d.ts
+typings/@ms/odsp.d.ts

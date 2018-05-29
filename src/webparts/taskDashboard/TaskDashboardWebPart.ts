@@ -162,7 +162,7 @@ export default class TaskDashboardWebPart extends BaseClientSideWebPart<ITaskDas
           {'data':'Priority'},
           {'data':'Status'},
           {'data':'StartDate',
-          'render': function(data) {
+          'render': data => {
               if (data != "" && data != null) {
                 return moment(data).format('YYYY/MM/DD');
               }
@@ -170,7 +170,7 @@ export default class TaskDashboardWebPart extends BaseClientSideWebPart<ITaskDas
             }
           },
           {'data':'DueDate',
-          'render': function(data) {
+          'render': data => {
               if (data != "" && data != null) {
                 return moment(data).format('YYYY/MM/DD');
               }
@@ -192,7 +192,7 @@ export default class TaskDashboardWebPart extends BaseClientSideWebPart<ITaskDas
         }, {}
       );
       
-      result = Object.keys(occurences).map(function (key) {
+      result = Object.keys(occurences).map(key => {
         return { key: key, value: occurences[key] };
       });
       console.log('Priority: ' + result);
@@ -210,7 +210,7 @@ export default class TaskDashboardWebPart extends BaseClientSideWebPart<ITaskDas
           return r;
         }, {}
       );
-      result = Object.keys(occurences).map(function (key) {
+      result = Object.keys(occurences).map(key => {
         return { key: key, value: occurences[key] };
       });
       console.log('Status: ' + result);
