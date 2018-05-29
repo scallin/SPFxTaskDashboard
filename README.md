@@ -1,6 +1,13 @@
 ## sp-fx-task-dashboard
 
-This is where you include your WebPart documentation.
+SharePoint SPFx Online/On-premise web part that displays task items in a dashboard using charts and data tables.
+
+External Libraries include
+- jQuery
+- Moment
+- DataTables
+- Bootstrap
+- Chart.js
 
 <img src="Dashboard Image.png" />
 
@@ -10,7 +17,7 @@ This is where you include your WebPart documentation.
 git clone the repo
 npm i
 npm i -g gulp
-gulp
+gulp serve
 ```
 
 This package produces the following:
