@@ -2,6 +2,8 @@
 
 This is where you include your WebPart documentation.
 
+<img src="Dashboard Image.png" />
+
 ### Building the code
 
 ```bash
